@@ -43,9 +43,9 @@ An overview of what's defined in the constructor:
 
 - `context`: an object that contains file metadata required by the `Piece` class (which `Listener` extends) in order to function.
 - `name`: by default, the name of the file without the extension, i.e. `ready.js` becomes `ready`, so there's no need to define it.
-- `once`: whether the event should be called only once or not
-There are many other properties available, explained in upcoming sections.
+- `once`: whether the event should be called only once or not.
 
+There are many other properties available, explained in upcoming sections.
 ## Creating the `run` method
 
 listeners have a `run` method, which executes the listener logic. Define this below the listener's constructor:
