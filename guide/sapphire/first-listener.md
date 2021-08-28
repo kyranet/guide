@@ -1,6 +1,6 @@
 # Your first listener
 
-Create a `listeners` folder in the same directory as your `main` file. Normally only one listener is defined per file, but you can also define groups of them. Create a `ready.js` file in your `listeners` folder, which will send a message and then edit it with the elapsed time. Arguments and other features are covered in other pages.
+Create a `listeners` folder in the same directory as your `main` file. Normally only one listener is defined per file, but you can also define groups of them. Create a `ready.js` file in your `listeners` folder, which will listen to the ready event.
 
 ## Creating a listener class
 
