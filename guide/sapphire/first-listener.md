@@ -33,7 +33,7 @@ export default class ReadyListener extends Listener {}
 module.exports = class ReadyListener extends Listener {
 	constructor(context) {
 		super(context, {
-			once: true
+			once: true,
 		});
 	}
 };
@@ -59,7 +59,7 @@ module.exports = class ReadyListener extends Listener {
 	}
 
 	async run(message) {
-		this.container.logger.info(`${this.container.client.user.tag} is ready!`)
+		this.container.logger.info(`${this.container.client.user.tag} is ready!`);
 	}
 };
 ```
